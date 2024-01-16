@@ -160,23 +160,6 @@ public class CreditNegativeTest {
 
 
     }
-//    @Test
-//    public void shouldNotSendThanPhoneIncorrectNotRussia() {
-//        driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван");
-//        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+10123456789");
-//        driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
-//        driver.findElement(By.cssSelector("button.button")).click();
-//
-//        assertEquals("Укажите точно как в паспорте",
-//                driver.findElement(By.cssSelector("[data-test-id='name'] .input__inner .input__sub")).getText().trim());
-//        assertTrue(driver.findElement(By.cssSelector("[data-test-id='name'] .input__inner .input__sub")).isDisplayed());
-//
-//        assertEquals("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",
-//                driver.findElement(By.cssSelector("[data-test-id='phone'].input_invalid .input__sub")).getText().trim());
-//        assertTrue(driver.findElement(By.cssSelector("[data-test-id='phone'].input_invalid .input__sub")).isDisplayed());
-//
-//
-//    }
 
 
 }
